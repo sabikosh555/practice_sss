@@ -16,31 +16,26 @@ body {
   text-align: center;
 }
 
-/* 1. Три элемента по центру вертикально и горизонтально */
 .center-container1 {
   justify-content: center;
   align-items: center;
   height: 200px;
 }
 
-/* 2. Пять элементов с равными промежутками */
 .space-evenly-container2 {
   justify-content: space-evenly;
 }
 
-/* 3. Элементы прижаты к нижней границе */
 .align-end-container3 {
   align-items: flex-end;
   height: 150px;
 }
 
-/* 4. Шесть элементов в столбик, выравнивание по правому краю */
 .column-right-container4 {
   flex-direction: column;
   align-items: flex-end;
 }
 
-/* 5. Элементы разного размера занимают равное пространство */
 .equal-space-container5 {
   justify-content: space-between;
 }
@@ -48,56 +43,46 @@ body {
   flex: 1;
 }
 
-/* 6. Элементы по горизонтали с переносом строк */
 .wrap-container6 {
   flex-wrap: wrap;
   gap: 10px;
 }
 
-/* 7. Первый и последний элемент зафиксированы, средний по центру */
 .space-between-container7 {
   justify-content: space-between;
 }
 
-/* 8. Элементы в конце строки с равными промежутками */
 .end-space-container8 {
   justify-content: space-between;
   align-items: flex-end;
 }
 
-/* 9. Элементы разной высоты по нижнему краю */
 .align-bottom-container9 {
   align-items: flex-end;
 }
 
-/* 10. Отступы только между элементами */
 .gap-container10 {
   justify-content: space-between;
 }
 
-/* 11. Элементы одинаковой ширины */
 .equal-width-container11 .item {
   flex: 1;
 }
 
-/* 12. Равномерное заполнение вертикального пространства */
 .vertical-fill-container12 {
   flex-direction: column;
   justify-content: space-between;
   height: 200px;
 }
 
-/* 13. Элементы с правым выравниванием */
 .right-align-container13 {
   justify-content: flex-end;
 }
 
-/* 14. Центральный элемент занимает всё пространство */
 .grow-center-container14 .item:nth-child(2) {
   flex-grow: 1;
 }
 
-/* 15. Элементы с фиксированной и гибкой шириной */
 .flex-fixed-container15 .item:nth-child(2),
 .flex-fixed-container15 .item:nth-child(4) {
   flex: 0 0 100px;
@@ -106,30 +91,25 @@ body {
   flex: 1;
 }
 
-/* 16. Элементы по вертикали в центре */
 .vertical-center-container16 {
   align-items: center;
   height: 150px;
 }
 
-/* 17. Элементы с конца строки */
 .start-end-container17 {
   justify-content: flex-end;
 }
 
-/* 18. Элементы в строках по левому краю */
 .rows-left-container18 {
   flex-wrap: wrap;
   align-content: flex-start;
   height: 150px;
 }
 
-/* 19. Равное распределение свободного пространства между элементами */
 .between-space-container19 {
   justify-content: space-between;
 }
 
-/* 20. Элементы в столбик с равным пространством */
 .equal-column-container20 {
   flex-direction: column;
   justify-content: space-between;
